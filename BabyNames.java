@@ -12,6 +12,7 @@ public class BabyNames {
 		
 		// Create a new scanner and prompt for input
 	    Scanner input = new Scanner(System.in);
+	    // Use file babynamesranking2001.txt through babynamesranking2010.txt (number is birth year)
 	    System.out.println("Enter the file name: ");
 	    String fileName = input.next();
     
